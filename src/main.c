@@ -2214,7 +2214,7 @@ void run()
 {
     static char multiproc_outfile_name[8192];
 
-    set_open_file_limit_max();
+    //set_open_file_limit_max();
 
     if(!urandom_init())
     {
